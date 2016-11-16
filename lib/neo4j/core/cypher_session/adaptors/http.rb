@@ -1,5 +1,6 @@
 require 'neo4j/core/cypher_session/adaptors'
 require 'neo4j/core/cypher_session/responses/http'
+require 'typhoeus/adapters/faraday'
 
 # TODO: Work with `Query` objects
 module Neo4j

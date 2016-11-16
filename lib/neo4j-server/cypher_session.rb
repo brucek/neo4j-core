@@ -1,4 +1,5 @@
 require 'uri'
+require 'typhoeus/adapters/faraday'
 
 module Neo4j
   module Server
