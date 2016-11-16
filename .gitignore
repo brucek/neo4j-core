@@ -34,3 +34,6 @@ coverage
 
 # dotenv
 .env
+.ruby_version
+.ruby_gemset
+

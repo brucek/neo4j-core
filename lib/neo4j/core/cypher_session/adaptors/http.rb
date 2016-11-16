@@ -141,7 +141,7 @@ module Neo4j
               c.request :multi_json
 
               c.response :multi_json, symbolize_keys: true, content_type: 'application/json'
-              c.use Faraday::Adapter::NetHttpPersistent
+              c.use Faraday::Adapter::Typhoeus
 
               c.headers['Content-Type'] = 'application/json'
               c.headers['User-Agent'] = user_agent_string

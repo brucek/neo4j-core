@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gemspec
+require 'typhoeus/adapters/faraday'
 
 # gem 'neo4j-advanced',   '>= 1.8.1', '< 2.0', :require => false
 # gem 'neo4j-enterprise', '>= 1.8.1', '< 2.0', :require => false
